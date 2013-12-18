@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.atlantidafm"
+       name="atlantidafm"
+       version="0.0.1"
+       provider-name="TeamSofia">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="script.module.elementtree" version="1.2.7" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             provides="audio"
+             library="default.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Listen to Atlantida FM online</summary>
+    <description lang="en">The best radio from Brazil.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
